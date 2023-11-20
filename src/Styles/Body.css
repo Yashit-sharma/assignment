@@ -1,0 +1,35 @@
+*{
+    background-color: rgb(21, 19, 19);
+    color: white;
+}
+.container--main{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 35vh;
+}
+.main--box{
+    width: fit-content;
+    border: 1px solid springgreen;
+    box-shadow: 0px 0px 10px springgreen;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    gap: 2rem;
+}
+.image{
+    height: 150px;
+    width: 150px;
+}
+.info--content{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+}
+.name{
+    display: flex;
+    column-gap: 2rem;
+}
